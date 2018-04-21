@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btn_manage_account" max="32767" attributes="0"/>
+                  <Component id="btn_manage_librarian" pref="145" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btn_manage_book" max="32767" attributes="0"/>
+                  <Component id="btn_requests_for_avaibility" max="32767" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                      <Component id="btn_manage_fine" min="-2" pref="162" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btn_check_issued_books" min="-2" pref="165" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btn_issue_book_request" min="-2" pref="152" max="-2" attributes="0"/>
+                  <Component id="btn_logout" min="-2" pref="162" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="75" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btn_issue_book_request" pref="81" max="32767" attributes="0"/>
+                  <Component id="btn_manage_librarian" pref="81" max="32767" attributes="0"/>
+                  <Component id="btn_manage_book" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btn_manage_fine" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btn_manage_account" pref="78" max="32767" attributes="0"/>
+                  <Component id="btn_logout" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btn_requests_for_avaibility" alignment="0" max="32767" attributes="0"/>
+                  <Component id="btn_check_issued_books" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="182" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btn_manage_librarian">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manage Librarian"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_manage_librarianActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_manage_book">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manage Book"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_manage_bookActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_manage_fine">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manage Fine"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_manage_fineActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_manage_account">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manage Account"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_requests_for_avaibility">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Book Requests"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_logout">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Log Out"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_logoutActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_issue_book_request">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Book Issue Request"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_issue_book_requestActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btn_check_issued_books">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Check Issued Books"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_check_issued_booksActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
